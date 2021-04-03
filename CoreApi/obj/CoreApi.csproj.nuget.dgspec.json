@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {}
+    "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {
+    "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
+        "projectUniqueName": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
         "projectName": "CoreApi",
-        "projectPath": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
+        "projectPath": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
         "packagesPath": "C:\\Users\\Toan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\obj\\",
+        "outputPath": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Toan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,40 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fs2ler+Hb5Z6YckbwhvD9mdFoQ/S4ADzR7trUgrrW5SvoLaCVdxGEVLx2Wb/8NKbuakIByH+aYolhUfgFnu5YA==",
+  "dgSpecHash": "ZXFEOmc2GL7tPrsYGTPR2USngzTlpy0gXyR5MPwyXgW8r42MIsMFEvLmo4dJ+3Q/odX1weRyzsrbV2fopY2voQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
+  "projectFilePath": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Toan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Toan\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",

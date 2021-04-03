@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {}
+    "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {
+    "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
+        "projectUniqueName": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
         "projectName": "CoreApi",
-        "projectPath": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
+        "projectPath": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\CoreApi.csproj",
         "packagesPath": "C:\\Users\\Toan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\obj\\",
+        "outputPath": "C:\\Users\\Toan\\Documents\\Src\\demo-api-integrate-is4\\CoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Toan\\AppData\\Roaming\\NuGet\\NuGet.Config",

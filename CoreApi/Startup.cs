@@ -69,6 +69,7 @@ namespace CoreApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CoreApi v1"));
             }
@@ -76,6 +77,8 @@ namespace CoreApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseIdentityServer();
 
             app.UseAuthorization();
 

@@ -10,7 +10,7 @@ namespace CoreApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize]
+    [Authorize("Bearer")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

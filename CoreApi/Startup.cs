@@ -57,6 +57,22 @@ namespace CoreApi
             // not recommended for production - you need to store your key material somewhere secure
             builder.AddDeveloperSigningCredential();
 
+            services
+                .AddAuthentication()
+                .AddLocalApi("Bearer", options =>
+                {
+                    options.ExpectedScope = "scope1";
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Bearer", policy =>
+                {
+                    policy.AddAuthenticationSchemes("Bearer");
+                    policy.RequireAuthenticatedUser();
+                });
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CoreApi", Version = "v1" });
